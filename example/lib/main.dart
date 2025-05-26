@@ -94,7 +94,6 @@ class MyAppState extends State<MyApp> {
             padding: const EdgeInsets.all(20),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              spacing: 3,
               children: [
                 Text('info: $_info\n '),
                 Text(_msj),
@@ -122,7 +121,6 @@ class MyAppState extends State<MyApp> {
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   child: Row(
-                    spacing: 5,
                     children: [
                       ElevatedButton(
                         onPressed: () {
