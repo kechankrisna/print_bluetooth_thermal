@@ -13,7 +13,7 @@ Impresion de IOS
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
-  s.source_files = 'print_bluetooth_thermal/Sources/print_bluetooth_thermal/**/*'
+  s.source_files = 'print_bluetooth_thermal/**/*'
   s.dependency 'Flutter'
   s.platform = :ios, '8.0'
 

@@ -42,7 +42,7 @@ flutter:
         package: app.web.groons.print_bluetooth_thermal
         pluginClass: PrintBluetoothThermalPlugin
       ios:
-        pluginClass: PrintBluetoothThermalPlugin
+        pluginClass: SwiftPrintBluetoothThermalPlugin
       #linux:
         #pluginClass: PrintBluetoothThermalPlugin
       #macos:
